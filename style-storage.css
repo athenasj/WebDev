@@ -1,0 +1,98 @@
+/* ----- M E D I A  Q U E R I E S ----- */
+
+
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {
+    
+}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .navbar-nav {                    
+        width: 60%;
+    }
+    .navbar-nav > li {                
+        margin-left: 3em;
+    }
+    .navbar > .container-fluid .navbar-brand{
+        margin-left: 1em;
+    }
+    .navbar-default{
+        padding-top: .5em;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+    .navbar-nav {                    
+        width: 60%;
+        margin-right: 2em;
+    }
+    .navbar-nav > li {                
+        margin-left: 5em;
+    }
+    .navbar > .container-fluid .navbar-brand{
+        margin-left: 2em;
+    }
+    .navbar-default{
+        padding-top: .5em;
+    }
+} 
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {
+    .navbar-nav {                    
+        width: 50%;
+        margin-right: 3em;
+    }
+    .navbar-nav > li{                
+        margin-left: 6em;
+    }
+    .navbar > .container-fluid .navbar-brand{
+        margin-left: 2em;
+    }
+    .navbar-default{
+        padding-top: .5em;
+    }
+}
+
+
+/* ----- G L O B A L  S T Y L E S ----- */
+
+.navbar-nav{
+    border-bottom: 2px solid #9DC8C8;
+}
+
+.navbar-nav:hover{
+   border-bottom: 2px solid #F6B352;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #58C9B9;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Lato', san-serif;
+} 
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #F6B352;
+
+}
+
+.snap{
+    font-size: 20px;
+    font-weight: bold;
+    color: #58C9B9;
+}
+
+.shop{
+    font-size: 20px;
+    color: #F6B352;
+}
+
+/* ----- S P E C I F I C  S T Y L E S ----- */

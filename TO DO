@@ -1,0 +1,64 @@
+
+
+
+
+TANYA:
+-fix footer margin for phone and pc
+
+
+
+ME:
+-upload new css and profile.php
+
+
+
+
+TO DO
+-ADD PROFILE PICTURE/done
+-PROFILE PICTURE/done
+
+-PICTURE RESIZE!/done
+
+-PURCHASE (VALIDATE CREDIT CARD)! /before submit, there is confirm button and price done
+
+-RECEIPT PAGE /$_SESSION['imgID'] //HOW RESIZE BEFORE DOWNLOAD/done
+
+-ALBUMS (ALBUM PAGE) /done //if time permits do one for admin and delete image for user
+-PAGINATION SA ADMIN /done
+-EDIT THE ADMIN PAGE /done
+-ADMIN PROFILE-EDIT PAGE /done but fix album if tehre is time
+-FIX PROFILE PICTURE USE DB /done
+-REMOVE OTHER IMAGES /done
+-FIX BUTTON IN PROFILE TO ALBUM.PHP /done
+
+-WHEN NOT LOGGED IN YOU CANNOT BUY/done
+-WHEN YOU ARE USER YOU CANNOT BUY/done
+
+-CREATE SEARCH
+
+-CONFIRMATION FOR BUYING/done
+
+
+***USE PROFILE EDIT FOR ADMIN EDIT COZ TAMAD /done
+
+***IN HOST CHANGE UPLOAD SIZE AND GD
+
+PS. WHEN MAKING PURCHASE.PHP USE $_GET['id'] /done
+
+
+
+FRONT END
+..RECEIPT/
+..ALBUM PAGE/
+..PURCHASE PAGE/
+..PAGE ADMIN/
+..UPDATED PAGE PROFILE EDIT/
+..UPDATED SIGN UP/
+
+wallet = 40
+3r = 50
+4r = 70
+half letter = 90
+full letter = 110
+
+
